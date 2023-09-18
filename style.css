@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.content .left .logo:hover{
+  cursor: pointer;
+}
+
+.content .left .logo{
+    position: absolute;
+    top:35px;
+    left: 23px;
+ }
+
+.left{
+    height: 100vh;
+    width: 16%;
+    border-right:.4px solid rgb(58, 57, 57);
+}
+
+.left .logo img{
+    width: 6.5em;
+    height: 40px;
+}
+
+.nav-link{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+ul{
+    margin-top: 25px;
+}
+li{
+    font-size: 16px;
+    list-style: none;
+    color: white;
+    padding-bottom: 35px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+li i{
+    padding-right: 20px;
+    font-size: 20.8px;
+}
+
+.left span{
+color: white;
+margin-left: 28px;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btn img{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.nav-btn span{
+    padding-left: 15px;
+}
+.right
+{
+width: 65%;
+ margin-right: 20%;
+padding-left: 185px;
+padding-top: 30px;
+}
+
+.dp img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+}
+
+.follows .uname{
+    display: flex;
+    width: 110%;
+}
+
+.uname span{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.follows .million {
+    margin-top: 16px;
+}
+
+.follows .million span{
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+.name{
+    margin-top: 20px;
+}
+
+.name span strong i{
+    font-size: 18px;
+}
+
+.bio{
+    margin-top: 10px;
+}
+
+.bio span{
+    font-size: 15px;
+}
+
+.story{
+    margin-top: 50px;
+    display: flex;
+    height: 160px;
+    border-bottom: 1px solid rgb(58,57,57);
+}
+
+.story img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(58, 57, 57);
+    border-radius: 50%;
+}
+
+.highlight{
+    margin-left: 30px;
+    margin-right: 8px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 12em;
+}
+
+.p span{
+    padding-right: 80px;
+    font-size: 12px;
+}
+
+.p i{
+    padding-right: 5px;
+}
+
+.s{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.share i{
+    font-size: 15px;
+}
+.share span{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(58,57,57);
+    border-radius: 50%;
+}
